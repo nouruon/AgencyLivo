@@ -1,0 +1,104 @@
+@import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-size: 1rem;
+    background-color: #fdfbf7;
+}
+
+body>div.container {
+    margin: 0 auto;
+    width: 84%;
+}
+
+body>div.container>section>header {
+    width: 100%;
+    display: block;
+    padding: 36px 0;
+}
+
+body>div.container>section>header>ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body>div.container>section>header>ul>li:first-child {
+    font-weight: 700;
+}
+
+body>div.container>section>header>ul>li:last-child {
+    float: right;
+    margin-top: -49px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body>div.container>section>header>ul>li:first-child>img {
+    width: 3.2vw;
+    vertical-align: middle;
+    margin-right: 35px;
+}
+
+button.livo_btn {
+    background: #132474;
+    color: #fff;
+    padding: 11px 17px;
+    border-radius: 13px;
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+section {
+    margin: 0 auto;
+    width: max-content;
+    height: 100vh;
+}
+
+section>div.gauche {
+    float: left;
+}
+
+section.accueil {
+    width: 100%;
+}
+
+section>div.droite {
+    float: right;
+}
+
+section>div.droite>img {
+    width: 36vw;
+}
+
+section>div.gauche>div.informations {
+    max-width: 35.9vw;
+    font-size: 2.8vw;
+}
+
+section>div.gauche>div.informations>h1 {
+    text-shadow: -2px 0px 0px #000;
+    margin-bottom: 26px;
+}
+
+section>div.gauche>div.informations>p {
+    font-size: 1.4vw;
+    font-weight: 400;
+    color: #919191;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+section>div.gauche>div.informations>button {
+    font-size: 1.2vw;
+    padding: 1.5vw 2.7vw;
+    letter-spacing: -1px;
+}

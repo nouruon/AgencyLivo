@@ -102,3 +102,20 @@ section>div.gauche>div.informations>button {
     padding: 1.5vw 2.7vw;
     letter-spacing: -1px;
 }
+
+section.pourquoi-nous {
+    width: 100%;
+}
+
+section.pourquoi-nous div.liste {
+    font-size: 1.1vw;
+}
+
+section.pourquoi-nous div.liste>ul>li>p:last-child {
+    color: #919191;
+    margin: 0px 0;
+}
+
+section.pourquoi-nous div.liste>ul>li>p:first-child {
+    margin: 10px 0;
+}

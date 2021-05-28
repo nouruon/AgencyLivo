@@ -105,17 +105,108 @@ section>div.gauche>div.informations>button {
 
 section.pourquoi-nous {
     width: 100%;
+    height: 80vh;
 }
 
-section.pourquoi-nous div.liste {
-    font-size: 1.1vw;
+section.pourquoi-nous div.liste,
+section.autres div.zone_contact {
+    font-size: 1.4vw;
+    width: 38vw;
 }
 
-section.pourquoi-nous div.liste>ul>li>p:last-child {
+section.pourquoi-nous div.liste>ul>li>p:last-child,
+section.autres div.zone_contact>ul>li>p:last-child {
     color: #919191;
     margin: 0px 0;
 }
 
-section.pourquoi-nous div.liste>ul>li>p:first-child {
+section.pourquoi-nous div.liste>ul>li>p:first-child,
+section.autres div.zone_contact>ul>li>p:first-child {
     margin: 10px 0;
+    font-weight: 600;
+}
+
+section.pourquoi-nous div.gauche>img {
+    width: 34vw;
+}
+
+section.offres>h1 {
+    font-size: 2.5vw;
+}
+
+section.offres {
+    width: 100%;
+    height: 100vh;
+}
+
+section.offres img {
+    width: 55vw;
+    margin: 103px auto;
+    display: block;
+    filter: drop-shadow(2px 4px 34px rgb(0 0 0 / 29%));
+}
+
+section.autres {
+    width: 100%;
+}
+
+section.autres>h1 {
+    font-size: 2.8vw;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+section.autres ul.partenaire {
+    list-style: none;
+    margin: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+section.autres ul.partenaire>li {
+    display: inline-block;
+}
+
+section.autres ul>li>img {
+    height: 4vw;
+    vertical-align: middle;
+    margin: 0px 47px;
+    object-fit: contain;
+}
+
+section.autres .gauche img {
+    width: 31vw;
+    margin-top: 103px;
+    margin-left: 6vw;
+}
+
+section.autres div.droite h1 {
+    font-size: 2.8vw;
+    padding-bottom: 22px;
+    padding-top: 161px;
+}
+
+footer {
+    background: #132474;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px 55px;
+    font-size: 1.4vw;
+    height: 105px;
+    line-height: 105px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul>li {
+    display: inline-block;
+    float: right;
+}
+
+footer ul>li:first-child {
+    float: left;
 }

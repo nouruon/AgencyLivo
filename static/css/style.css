@@ -210,3 +210,45 @@ footer ul>li {
 footer ul>li:first-child {
     float: left;
 }
+
+section.pourquoi-nous div.liste li,
+section.autres div.zone_contact li {
+    list-style: none;
+    position: relative;
+}
+
+section.pourquoi-nous div.liste li::before,
+section.autres div.zone_contact li::before {
+    content: "";
+    background: #fff;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 0.5vw;
+    border-radius: 50%;
+    left: -6.5vw;
+}
+
+li.prix::before {
+    background: url(../img/prix.svg) center/100% no-repeat #fff!important;
+}
+
+li.couronne::before {
+    background: url(../img/couronne.svg) center/100% no-repeat #fff!important;
+}
+
+li.temps::before {
+    background: url(../img/temps.svg) center/100% no-repeat #fff!important;
+}
+
+li.ecrans::before {
+    background: url(../img/pc.svg) center/100% no-repeat #fff!important;
+}
+
+li.telephone::before {
+    background: url(../img/tel.svg) center/100% no-repeat #fff!important;
+}
+
+li.mail::before {
+    background: url(../img/mail.svg) center/100% no-repeat #fff!important;
+}
